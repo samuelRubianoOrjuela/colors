@@ -21,16 +21,28 @@ section {
     justify-content: center;
 }
 #nombreColor {
-    margin: 10px 0;
-    font-size: 50px;
+    margin: 0;
+    font-size: 70px;
     color: #DCF2F1;
 }
 #boton {
     margin: 10px 0;
-    font-size: 22px;
+    font-size: 150%;
     padding: 10px 13px;
     border-radius: 10px;
     background-color: #0F1035;
     color: #DCF2F1;
     cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+    section {
+        height: 45vw;
+        width: 77vw;
+    }
+    #nombreColor {
+        font-size: 16vw;
+    }
+    #boton {
+        font-size: 5.5vw;
+    }
 }
