@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,300;1,100&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 * {
     font-family: "Source Code Pro", monospace;
+        overflow: hidden;
 }
 body {
     height: 100vh;
